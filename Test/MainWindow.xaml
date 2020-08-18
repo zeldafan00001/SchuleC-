@@ -1,0 +1,69 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="522.5" Width="369.489">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="18,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="128,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown_1"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="238,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown_2"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="18,182,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown_3"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="128,182,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown_4"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="238,182,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown_5"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="18,292,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown_6"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="128,292,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown_7"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="105" Margin="238,292,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown_8"/>
+        <Button x:Name="button" Grid.ColumnSpan="2" Content="R E S E T " HorizontalAlignment="Left" Height="46" Margin="128,426,0,0" VerticalAlignment="Top" Width="106" FontFamily="Arial" FontWeight="Bold" FontSize="20" FontStyle="Italic" Click="button_Click"/>
+        <Image x:Name="kreis_1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="19,72,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="18,72,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <Image x:Name="kreis_2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="129,72,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="129,72,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <Image x:Name="kreis_8" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="129,292,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_8" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="129,292,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <Image x:Name="kreis_3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="238,72,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="239,72,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <Image x:Name="kreis_4" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="19,182,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_4" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="18,182,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <Image x:Name="kreis_5" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="129,182,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_5" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="129,182,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <Image x:Name="kreis_6" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="238,182,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_6" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="239,182,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <Image x:Name="kreis_7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="19,292,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="18,292,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <Image x:Name="kreis_9" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="239,292,0,0" VerticalAlignment="Top" Width="105" Source="media/Kreis.png"/>
+        <Image x:Name="x_9" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="105" Margin="239,292,0,0" VerticalAlignment="Top" Width="105" Source="media/x.png"/>
+        <TextBlock x:Name="tb1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="34" Margin="19,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="324" TextAlignment="Center" FontFamily="Arial" FontSize="28" FontWeight="Bold"/>
+        <TextBlock x:Name="t2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="15" Margin="19,41,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="324" TextAlignment="Center"/>
+        <Rectangle x:Name="overTTT" Grid.ColumnSpan="2" Fill="#00F4F4F5" HorizontalAlignment="Left" Height="325" Margin="19,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="325"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="Black" HorizontalAlignment="Left" Height="325" Margin="123,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="6"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="Black" HorizontalAlignment="Left" Height="325" Margin="233,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="6"/>
+        <Rectangle Grid.ColumnSpan="2" Fill="Black" HorizontalAlignment="Left" Height="326" Margin="178,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="6" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Grid.ColumnSpan="2" Fill="Black" HorizontalAlignment="Left" Height="326" Margin="178,16,0,0" Stroke="Black" VerticalAlignment="Top" Width="6" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+C:\Users\lilkevskrr\source\repos\testX\Test\bin\Release\Test.exe.config
+C:\Users\lilkevskrr\source\repos\testX\Test\bin\Release\Test.exe
+C:\Users\lilkevskrr\source\repos\testX\Test\bin\Release\Test.pdb
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\MainWindow.g.cs
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\App.g.cs
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\Test_MarkupCompile.cache
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\Test_MarkupCompile.lref
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\MainWindow.baml
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\Test.g.resources
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\Test.Properties.Resources.resources
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\Test.csproj.GenerateResource.cache
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\Test.csproj.CoreCompileInputs.cache
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\Test.exe
+C:\Users\lilkevskrr\source\repos\testX\Test\obj\Release\Test.pdb
